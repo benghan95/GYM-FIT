@@ -31,7 +31,7 @@
               <hr />
               <asp:TextBox id="TBEmail" runat="server">Email</asp:TextBox>
               <asp:TextBox id="TBPassword" runat="server">Password</asp:TextBox>
-              <asp:TextBox id="TBConfirmPassword" runat="server">Password</asp:TextBox>
+              <asp:TextBox id="TBConfirmPassword" runat="server">Confirm Password</asp:TextBox>
               <div class="row">
                 <div class="col-md-6">
                   <asp:TextBox id="TBFirstName" runat="server">First Name</asp:TextBox>

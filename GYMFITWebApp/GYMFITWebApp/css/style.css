@@ -26,8 +26,8 @@ html{
   background-size: cover;
 }
 .top-navbar{
-  height: 60px;
-  padding-top: 10px;
+  height: 65px;
+  padding-top: 15px;
   padding-bottom: 10px;
 }
 .top-navbar img{
@@ -45,7 +45,7 @@ html{
 }
 #LblHomeTitle{
   display: block;
-  font-size: 64px;
+  font-size: 80px;
   line-height: normal;
 }
 #LblHomeDesc{
