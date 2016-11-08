@@ -1,22 +1,25 @@
 ﻿<%@ Page Language="C#" Inherits="GYMFITWebApp.Default" %>
 <!DOCTYPE html>
-<html>
+<html id="home">
 <head runat="server">
   <title>GYM FIT</title>
-	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Questrial|Raleway:400,500,700" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-	<div id="home" class="homepage">
+	<div class="homepage">
     <form id="FHome" runat="server">
+      <!-- TOP BAR (GYM FIT LOGO ONLY) -->
   		<div class="container top-navbar">
   			<asp:Hyperlink id="HomePageLink" runat="server">
            <asp:Image id="Logo" CssClass="logo" runat="server" imageurl="img/gym-fit-logo-dark.png" />
         </asp:Hyperlink>
   	  </div>
+      <!-- HOME (REGISTRATION PAGE) -->
   		<div class="container home-content">
   			<div class="row">
+          <!-- 1ST HALF - HOME DESCRIPTION -->
           <div class="col-md-6 home-desc">
             <asp:Label id="LblHomeTitle" runat="server">GET FIT or GET FAT</asp:Label>
             <asp:Label id="LblHomeDesc" runat="server">
@@ -25,6 +28,7 @@
             nisi ut aliquip ex ea commodo consequat.
             </asp:Label>
           </div>
+          <!-- 2ND HALF - REGISTRATION FORM -->
           <div class="col-md-6">
             <div class="home-form">
               <asp:Label id="LblHomeFormTitle" runat="server">REGISTER NOW</asp:Label>
@@ -57,6 +61,7 @@
           </div>
   			</div>
   		</div>
+      <!-- MAIN NAVIGATION BAR (HOMEPAGE USAGE ONLY eg. REGISTER & LOGIN)-->
       <div class="container main-menu">
         <asp:Menu ID="MenuNavigation" runat="server" CssClass="navbar" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
           <Items>

@@ -18,12 +18,35 @@ a:focus{
 body{
   background-color: transparent;
 }
-html{
+#home{
   background: url('../img/home-banner.jpg') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+#login{
+  background: url('../img/testimonial_fullwidth_bg.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#home_user{
+  background: url('../img/home-testimonial-bg.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#login .home-desc{
+  margin-top: 20px;
+}
+#login .home-form{
+  margin: 80px auto;
+}
+#login .home-form{
+  margin: 80px auto;
 }
 .top-navbar{
   height: 65px;
@@ -35,6 +58,7 @@ html{
   width: auto;
 }
 .home-content{
+  height: 500px;
   padding-top: 30px;
 }
 .home-desc{
@@ -42,6 +66,21 @@ html{
 }
 .home-desc span{
   color: #fff;
+}
+.page-desc h1{
+  color: #fff;
+  font-size: 80px;
+  line-height: normal;
+}
+.page-desc h3{
+  color: #fff;
+  font-size: 36px;
+  line-height: normal;
+}
+.page-desc p{
+  color: #fff;
+  font-size: 18px;
+  line-height: 26px;
 }
 #LblHomeTitle{
   display: block;
@@ -94,10 +133,14 @@ html{
 .home-form hr{
 
 }
-#BtnRegister{
+#BtnRegister,
+#BtnLogin{
   color: #fff;
   background-color: #ed1c24;
   padding: 10px;
+}
+.main-menu > a:first-child > img{
+  display: none;
 }
 .navbar{
   text-align: center;

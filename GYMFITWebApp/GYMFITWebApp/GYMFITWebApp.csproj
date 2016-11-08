@@ -47,6 +47,11 @@
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
     <Content Include="Default.aspx" />
+    <Content Include="VenueBooking.aspx" />
+    <Content Include="TrainerBooking.aspx" />
+    <Content Include="UserProfile.aspx" />
+    <Content Include="HomeUser.aspx" />
+    <Content Include="AdminDashboard.aspx" />
     <Content Include="Login.aspx" />
   </ItemGroup>
   <ItemGroup>
@@ -60,9 +65,43 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="VenueBooking.aspx.cs">
+      <DependentUpon>VenueBooking.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VenueBooking.aspx.designer.cs">
+      <DependentUpon>VenueBooking.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserProfile.aspx.cs">
+      <DependentUpon>UserProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserProfile.aspx.designer.cs">
+      <DependentUpon>UserProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrainerBooking.aspx.cs">
+      <DependentUpon>TrainerBooking.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrainerBooking.aspx.designer.cs">
+      <DependentUpon>TrainerBooking.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HomeUser.aspx.cs">
+      <DependentUpon>HomeUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HomeUser.aspx.designer.cs">
+      <DependentUpon>HomeUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminDashboard.aspx.cs">
+      <DependentUpon>AdminDashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminDashboard.aspx.designer.cs">
+      <DependentUpon>AdminDashboard.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
